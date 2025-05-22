@@ -1,4 +1,9 @@
 # gene461_finalproject
+## Project Summary
+
+This project explores how to model and classify cell population growth dynamics using both simulated and real single-cell RNA sequencing (scRNA-seq) data. We developed a pipeline that simulates cell populations under different growth regimes (linear, exponential, and logistic), extracts graph-based and topological features from simulated differentiation trajectories, and trains classifiers (e.g., Graph Convolutional Networks and Random Forests) to distinguish among growth types.
+
+We then applied this framework to real hematopoietic stem cell (HSC) data from the Human Cell Atlas to infer the underlying population dynamics of immune cell development. The goal is to assess whether computational classifiers trained on synthetic data can generalize to real biological systems and provide insights into self-renewal and differentiation behavior in hematopoiesis.
 
 This repository contains code and analysis for simulating cell population dynamics, extracting features, and training classifiers to predict growth regimes, as part of the final project for GENE 461.
 
