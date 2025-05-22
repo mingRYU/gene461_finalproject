@@ -5,7 +5,7 @@ This project explores how to model and classify cell population growth dynamics 
 
 We then applied this framework to real hematopoietic stem cell (HSC) data from the Human Cell Atlas to infer the underlying population dynamics of immune cell development. The goal is to assess whether computational classifiers trained on synthetic data can generalize to real biological systems and provide insights into self-renewal and differentiation behavior in hematopoiesis.
 
-I also included a document containing some derivations (based on branching process) on the expected distribution for each growth regime: branching_results_outline.pdf
+A document containing derivations (based on branching process) on the expected distribution for each growth regime is also included: branching_results_outline.pdf
 
 This repository contains code and analysis for simulating cell population dynamics, extracting features, and training classifiers to predict growth regimes, as part of the final project for GENE 461.
 
